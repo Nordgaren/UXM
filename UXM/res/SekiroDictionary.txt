@@ -8626,6 +8626,8 @@
 /sound/xm25.itl
 /event/m10_00_50_60.emeld.dcx
 /event/m10_00_50_60.emevd.dcx
+/event/m10_00_50_61.emeld.dcx
+/event/m10_00_50_61.emevd.dcx
 /event/m10_00_50_90.emeld.dcx
 /event/m10_00_50_90.emevd.dcx
 /event/m11_00_50_80.emeld.dcx
@@ -8638,10 +8640,14 @@
 /event/m11_01_54_10.emevd.dcx
 /event/m11_01_71_00.emeld.dcx
 /event/m11_01_71_00.emevd.dcx
+/event/m11_01_71_01.emeld.dcx
+/event/m11_01_71_01.emevd.dcx
 /event/m11_01_74_00.emeld.dcx
 /event/m11_01_74_00.emevd.dcx
 /event/m11_02_54_00.emeld.dcx
 /event/m11_02_54_00.emevd.dcx
+/event/m11_02_54_01.emeld.dcx
+/event/m11_02_54_01.emevd.dcx
 /event/m11_02_71_10.emeld.dcx
 /event/m11_02_71_10.emevd.dcx
 /event/m15_00_50_00.emeld.dcx
