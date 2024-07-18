@@ -287,7 +287,7 @@ namespace UXM
                                 bool unknown;
                                 if (archiveDictionary.GetPath(header.FileNameHash, out path))
                                 {
-                                    if (archive == @"sd\sd")
+                                    if (archive == @"sd\sd" || archive == @"sd\sd_dlc02")
                                         path = $@"\sd\{path}";
 
                                     unknown = false;
@@ -332,7 +332,10 @@ namespace UXM
                                 try
                                 {
                                     bytes = header.ReadFile(bdtStream);
-                                    if (archive == @"sd\sd" && gameVersion >= BHD5.Game.EldenRing && bytes.Length > fileSize)
+                                    if (
+                                        (archive == @"sd\sd" || archive == @"sd\sd_dlc02") &&
+                                        gameVersion >= BHD5.Game.EldenRing && bytes.Length > fileSize
+                                    )
                                     {
                                         bytes = bytes.Take((int)fileSize).ToArray();
                                     }
